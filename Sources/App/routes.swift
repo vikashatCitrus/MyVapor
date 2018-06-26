@@ -15,8 +15,13 @@ public func routes(_ router: Router) throws {
     router.get("hello") { req in
         return "Hello, world!"
     }
+    
+    
+   
+    
+    
     router.get("json") { req in
-        return [Person(name: "Tariq ABCc", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f25oekursi" ,mobileNumber:"91-5901712017",userName:"9159yfdo14tv120"),Person(name: "Musa Bhai", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f25oekursj" ,mobileNumber:"91-4901712017",userName:"9149p3g0fsjk120"),Person(name: "Amanpreet Kaur Chadha", age: 26 ,gender:"male" , imageFileId:"1_1_7_G_I_I3_f25oekursl" ,mobileNumber:"91-3901712017",userName:"9139c0ux9vcr120"),Person(name: "Inshu Madam", age: 26 ,gender:"male" , imageFileId:"1_1_7_G_I_I3_f25oekursp" ,mobileNumber:"91-2901712017",userName:"9129tsbystl2120"),Person(name: "Swati Thapa", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f25oekurss" ,mobileNumber:"91-1101712017",userName:"9111u8mg4yz4120"),Person(name: "Mahesh", age: 26 ,gender:"male" , imageFileId:"1_1_7_G_I_I3_f25oekursu" ,mobileNumber:"91-1111712017",userName:"9111uetlsqht120")]
+        return [Person(name: "Priya Khanna", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f2b96774ld" ,mobileNumber:"91-9870210027",userName:"91980svht7n1100"),Person(name: "Anamika Rana", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f2b96774li" ,mobileNumber:"91-9870210025",userName:"919814mnud3c100"),Person(name: "Akshay Kumar", age: 26 ,gender:"male" , imageFileId:"1_1_7_G_I_I3_f2b96774ll" ,mobileNumber:"91-9870210029",userName:"9198ae75j3aa100")]
     }
     // Example of configuring a controller
     let todoController = TodoController()
