@@ -15,6 +15,9 @@ public func routes(_ router: Router) throws {
     router.get("hello") { req in
         return "Hello, world!"
     }
+    router.get("apple-app-site-association") { req in
+        return "Hello, world!"
+    }
     
     router.get("json") { req in
         return [Person(name: "Priya Khanna", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f2b96774ld" ,mobileNumber:"91-9870210027",userName:"91980svht7n1100"),Person(name: "Anamika Rana", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f2b96774li" ,mobileNumber:"91-9870210025",userName:"919814mnud3c100"),Person(name: "Akshay Kumar", age: 26 ,gender:"male" , imageFileId:"1_1_7_G_I_I3_f2b96774ll" ,mobileNumber:"91-9870210029",userName:"9198ae75j3aa100"),Person(name: "Geetika Bobal", age: 26 ,gender:"female" , imageFileId:"1_1_7_G_I_I3_f2b96774sf" ,mobileNumber:"91-9873447023",userName:"9198sk0iosfg470")]
